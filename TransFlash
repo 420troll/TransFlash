@@ -85,9 +85,9 @@ void setup() {
  
 void loop() {
     // read the analog / millivolts value for pin 2:
-  int analogValue = analogRead(4);
-  int analogVolts = analogReadMilliVolts(4);
-  int anal = map (analogValue,0,4095,0,700);
+  int analogValue = analogRead(35);
+  int analogVolts = analogReadMilliVolts(35);
+  int anal = map (analogValue,0,4095,400,15);
 
 
   // print out the values you read:
